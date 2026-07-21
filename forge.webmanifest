@@ -1,0 +1,19 @@
+{
+  "name": "The Forge",
+  "short_name": "Forge",
+  "description": "Offline-first execution, reflection and character progression.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#17120f",
+  "theme_color": "#17120f",
+  "icons": [
+    {
+      "src": "./forge-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
