@@ -1,4 +1,4 @@
-const CACHE = 'the-forge-v16';
+const CACHE = 'the-forge-v18';
 const CORE = ['./index.html', './forge.webmanifest', './forge-icon.svg'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting()));
